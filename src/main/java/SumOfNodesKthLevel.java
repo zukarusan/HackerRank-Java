@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Stack;
 
 public class SumOfNodesKthLevel {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/sum-of-nodes-in-kth-level
     public static int solve (int k, String tree) {
         Stack<Boolean> levelTree = new Stack<>();
         int len = tree.length();

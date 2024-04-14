@@ -2,6 +2,7 @@
 import java.io.*;
 import java.util.*;
 public class QueensAttack2 {
+    // https://www.hackerrank.com/challenges/queens-attack-2?isFullScreen=true
 
     /*
      * Complete the 'queensAttack' function below.
@@ -45,9 +46,9 @@ public class QueensAttack2 {
     public static int queensAttack(int n, int k, int r_q, int c_q, List<List<Integer>> obstacles) throws Exception {
         // Write your code here
         int cX = c_q,
-                cY = r_q,
-                cDUp = (-c_q) + r_q,
-                cDDown = c_q + r_q;
+            cY = r_q,
+            cDUp = (-c_q) + r_q,
+            cDDown = c_q + r_q;
         int[] queen = new int[2];
         queen[0] = c_q;
         queen[1] = r_q;

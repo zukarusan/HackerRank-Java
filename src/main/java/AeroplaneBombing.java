@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AeroplaneBombing {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/aeroplane-bombing
     public static int maxCoin(int[][] map, int row, int col, int calculated, int max, boolean bomb, int effect) {
         if (row < 0 || calculated < 0) {
             if (calculated > max) {

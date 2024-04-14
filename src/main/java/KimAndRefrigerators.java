@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class KimAndRefrigerators {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/kim-and-refrigerators
     static final int CASES = 10;
     public static int calculateDistance(int[] from, int[] to) {
         return Math.abs(from[0] - to[0]) + Math.abs(from[1] - to[1]);

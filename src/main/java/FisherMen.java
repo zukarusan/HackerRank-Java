@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Collections;
 
 public class FisherMen {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/fisherman
     public static int solve(int n, int[] gp, int[] nf) {
         int min = Integer.MAX_VALUE;
         for (int i = 1; i <= n-nf[1]-nf[2]; i++) {

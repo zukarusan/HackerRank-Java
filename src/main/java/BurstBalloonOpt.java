@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BurstBalloonOpt {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/burst-balloons-1
     public static int shootMax(List<Integer> balloons, int score, int max, int bullets) {
         int len = balloons.size();
         if (len == 0 || bullets == 0) {

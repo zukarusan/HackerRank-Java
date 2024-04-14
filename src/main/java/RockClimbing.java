@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Arrays;
 
 public class RockClimbing {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/rock-climbing
     public static class Climb {
         public boolean found = false;
         public int height = 0;

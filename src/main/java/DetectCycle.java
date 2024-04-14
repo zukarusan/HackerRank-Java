@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class DetectCycle {
+    // https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/detect-cycle-in-directed-graph
 
     public static class Cycle {
         public List<Integer> cycle;
