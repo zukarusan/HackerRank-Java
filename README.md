@@ -9,6 +9,7 @@ Advanced-level round problems. And probably preparations for Professional round.
 - GeeksForGeeks: https://www.geeksforgeeks.org/explore?page=1&company=Samsung&difficulty=Hard&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 Others:
+- https://github.com/rsenwar/Samsung-Interview-Problems/blob/master/3.%20Travelling%20SalesPerson/2.cpp
 - https://www.careercup.com/page?pid=samsung-interview-questions
 - https://github.com/s-kachroo/SamsungPractice
 - https://leetcode.com/discuss/study-guide/2430819/Samsung-SWC-Advance-Test
