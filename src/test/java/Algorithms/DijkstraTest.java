@@ -45,7 +45,7 @@ class DijkstraTest {
         Double[] expDists = ArrayUtils.toObject(new double[] {0.0,4.0,12.0,19.0,21.0,11.0,9.0,8.0,14.0});
         Dijkstra.DijkstraResult result = Dijkstra.calculateGraph(graph, 0, null);
         assertArrayEquals(expDists, result.getMinimumDistances().values().toArray(new Double[0]));
-        result.getMinimumDistances().forEach((x,y)->System.out.println(y));
+        //result.getMinimumDistances().forEach((x,y)->System.out.println(y));
         assertThrows(Exception.class, ()->Dijkstra.calculateGraph(null, 0, null));
         assertThrows(Exception.class, ()->Dijkstra.calculateGraph(graph, null, null));
     }
